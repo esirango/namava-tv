@@ -29,8 +29,8 @@
 #purchase .subscription .tickets {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    gap: 15px;
+    justify-content: center;
+    gap: 15px 40px;
 }
 
 #purchase .subscription .tickets h4 {
@@ -57,7 +57,6 @@
     width: 100%;
     margin: 0 auto 0;
     max-width: 416px;
-    display: inline-block;
 }
 
 #purchase .price-box .price-table .price-row {
@@ -98,6 +97,10 @@
     margin-top: 20px;
 }
 
+#purchase .digikala img {
+    width: 70px;
+}
+
 @media (min-width: 640px) {
     #purchase h2 {
         font-size: 18px;
@@ -117,6 +120,10 @@
     #purchase .price-box .price-table .price-row .price,
     #purchase .subscription .tickets .ticket .price {
         font-size: 12px;
+    }
+
+    #purchase .digikala img {
+        width: 80px;
     }
 }
 
@@ -152,5 +159,9 @@
 
     #purchase .digikala {
         font-size: 14px;
+    }
+
+    #purchase .digikala img {
+        width: 84px;
     }
 }
