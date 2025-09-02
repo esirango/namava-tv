@@ -1,18 +1,18 @@
-#introduction {
+.hero {
     display: flex;
     flex-direction: column-reverse;
     margin-bottom: 40px;
 }
 
-#introduction .intro-desc {
+.hero .intro-desc {
     text-align: center;
 }
 
-#introduction .intro-desc h2 {
+.hero .intro-desc .title {
     font-size: 14px;
 }
 
-#introduction .intro-desc p {
+.hero .intro-desc .paragraph {
     color: #aaa;
     font-weight: 300;
     font-size: 12px;
@@ -20,15 +20,16 @@
     margin-top: 16px;
 }
 
-#introduction .intro-img img {
+.hero .intro-img img {
     max-width: 100%;
+    margin-top: 40px;
 }
 
 @media (min-width: 640px) {
-    #introduction .intro-desc h2 {
+    .hero .intro-desc .title {
         font-size: 16px;
     }
-    #introduction .intro-desc p {
+    .hero .intro-desc .paragraph {
         font-size: 14px;
         line-height: 24px;
     }
@@ -40,28 +41,47 @@
         margin: 0 auto;
     }
 
-    #introduction {
+    .hero {
         display: flex;
         flex-direction: row;
         align-items: center;
     }
 
-    #introduction .intro-desc {
+    .hero .intro-desc {
         text-align: right;
         width: 33%;
         margin: 70px 8% 0;
     }
 
-    #introduction .intro-desc h2 {
+    .hero-col .intro-desc {
+        text-align: center;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .hero .intro-desc .title {
         font-size: 20px;
     }
-    #introduction .intro-desc p {
+    .hero .intro-desc .paragraph {
         font-size: 16px;
         line-height: 28px;
         margin-top: 24px;
     }
 
-    #introduction .intro-img {
+    .hero .intro-img {
         width: 48%;
+    }
+
+    .hero-col .intro-img {
+        width: 58%;
+    }
+
+    .hero-col {
+        flex-direction: column-reverse;
+    }
+
+    .hero-col .intro-desc {
+        text-align: center;
+        margin: 0 auto;
     }
 }

@@ -55,7 +55,7 @@
 
 #purchase .price-box {
     width: 100%;
-    margin: 0 auto 0;
+    margin: 0 auto;
     max-width: 416px;
 }
 
@@ -125,12 +125,19 @@
     #purchase .digikala img {
         width: 80px;
     }
+
+    #purchase .price-box {
+        margin: 0 auto;
+    }
 }
 
 @media (min-width: 1280px) {
     #purchase {
         display: flex;
         flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+        align-items: center;
     }
     #purchase h2 {
         font-size: 20px;
@@ -138,6 +145,7 @@
 
     #purchase .price-box {
         width: 33%;
+        margin: 0 40px;
     }
 
     #purchase .subscription .tickets .ticket img {
