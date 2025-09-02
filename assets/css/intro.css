@@ -1,6 +1,7 @@
 #introduction {
     display: flex;
     flex-direction: column-reverse;
+    margin-bottom: 40px;
 }
 
 #introduction .intro-desc {

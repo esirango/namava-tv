@@ -1,0 +1,138 @@
+#purchase {
+    text-align: center;
+}
+
+#purchase h2 {
+    font-size: 16px;
+    margin-bottom: 19px;
+}
+
+#purchase .subscription .tickets {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+#purchase .subscription .tickets .ticket {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+}
+
+#purchase .subscription .tickets .ticket img {
+    width: 145px;
+}
+
+#purchase .subscription .tickets {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+#purchase .subscription .tickets h4 {
+    font-size: 12px;
+}
+
+#purchase .with-discount {
+    text-decoration-line: line-through;
+    text-decoration-color: #d95c5c;
+}
+
+#purchase .price-box .price-table {
+    padding: 20px;
+    background-color: #121212;
+    border-radius: 12px;
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    gap: 20px;
+}
+
+#purchase .price-box {
+    width: 100%;
+    margin: 0 auto 0;
+    max-width: 416px;
+    display: inline-block;
+}
+
+#purchase .price-box .price-table .price-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#purchase .price-box .price-table .price-row h3 {
+    font-size: 14px;
+}
+
+#purchase .price-box .price-table .price-row .discount {
+    width: 64px;
+    line-height: 18px;
+    font-weight: 400;
+    border-radius: 3px;
+    background-color: #d95c5c;
+    font-size: 10px;
+}
+
+#purchase .price-box .price-table .price-row .price,
+#purchase .subscription .tickets .ticket .price {
+    font-size: 12px;
+}
+
+@media (min-width: 640px) {
+    #purchase h2 {
+        font-size: 18px;
+    }
+    #purchase .subscription .tickets .ticket img {
+        width: 128px;
+    }
+
+    #purchase .subscription .tickets h4 {
+        font-size: 12px;
+    }
+
+    #purchase .price-box .price-table .price-row h3 {
+        font-size: 14px;
+    }
+
+    #purchase .price-box .price-table .price-row .price,
+    #purchase .subscription .tickets .ticket .price {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1280px) {
+    #purchase {
+        display: flex;
+        flex-direction: row;
+    }
+    #purchase h2 {
+        font-size: 20px;
+    }
+
+    #purchase .price-box {
+        width: 33%;
+    }
+
+    #purchase .subscription .tickets .ticket img {
+        width: 205px;
+    }
+
+    #purchase .subscription .tickets h4 {
+        font-size: 14px;
+    }
+
+    #purchase .price-box .price-table .price-row h3 {
+        font-size: 16px;
+    }
+
+    #purchase .price-box .price-table .price-row .price,
+    #purchase .subscription .tickets .ticket .price {
+        font-size: 14px;
+    }
+}
