@@ -84,6 +84,20 @@
     font-size: 12px;
 }
 
+#purchase .digikala {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    line-height: 42px;
+    font-size: 12px;
+    color: #121212;
+    margin-top: 20px;
+}
+
 @media (min-width: 640px) {
     #purchase h2 {
         font-size: 18px;
@@ -133,6 +147,10 @@
 
     #purchase .price-box .price-table .price-row .price,
     #purchase .subscription .tickets .ticket .price {
+        font-size: 14px;
+    }
+
+    #purchase .digikala {
         font-size: 14px;
     }
 }
