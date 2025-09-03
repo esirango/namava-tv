@@ -1,0 +1,49 @@
+#technical-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+#technical-info div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#technical-info div span {
+    font-size: 12px;
+    margin-top: 8px;
+    margin-bottom: 40px;
+}
+
+#technical-info div img {
+    width: 120px;
+    height: 120px;
+}
+
+@media (min-width: 640px) {
+    #technical-info {
+        margin-top: 60px;
+    }
+
+    #technical-info div span {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1280px) {
+    #technical-info {
+        grid-template-columns: repeat(4, 1fr);
+        margin-top: 85px;
+    }
+
+    #technical-info div span {
+        font-size: 16px;
+    }
+
+    #technical-info div img {
+        width: 150px;
+        height: 150px;
+    }
+}
