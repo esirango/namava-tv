@@ -36,15 +36,15 @@
 }
 
 @media (min-width: 1280px) {
-    main {
-        width: 1180px;
-        margin: 0 auto;
-    }
-
     .hero {
         display: flex;
         flex-direction: row;
         align-items: center;
+        margin-top: 60px;
+    }
+
+    .hero-col {
+        margin-top: 0;
     }
 
     .hero .intro-desc {
