@@ -25,6 +25,11 @@
     margin-top: 40px;
 }
 
+#remote-img {
+    width: 44%;
+    margin: 0 auto 25px;
+}
+
 @media (min-width: 640px) {
     .hero .intro-desc .title {
         font-size: 16px;
@@ -32,6 +37,10 @@
     .hero .intro-desc .paragraph {
         font-size: 14px;
         line-height: 24px;
+    }
+
+    #remote-img {
+        width: 44%;
     }
 }
 
@@ -49,7 +58,7 @@
 
     .hero .intro-desc {
         text-align: right;
-        width: 33%;
+        width: 43%;
         margin: 70px 8% 0;
     }
 
@@ -83,5 +92,12 @@
     .hero-col .intro-desc {
         text-align: center;
         margin: 0 auto;
+    }
+
+    #remote-img {
+        width: 25%;
+    }
+    #remote-img img {
+        max-width: 100%;
     }
 }
