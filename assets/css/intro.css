@@ -10,6 +10,7 @@
 
 .hero .intro-desc .title {
     font-size: 14px;
+    margin-top: 12px;
 }
 
 .hero .intro-desc .paragraph {
@@ -28,6 +29,10 @@
 #remote-img {
     width: 44%;
     margin: 0 auto 25px;
+}
+
+#tv-img img {
+    width: 100%;
 }
 
 @media (min-width: 640px) {
@@ -52,6 +57,10 @@
         margin-top: 60px;
     }
 
+    .hero-reverse {
+        flex-direction: row-reverse;
+    }
+
     .hero-col {
         margin-top: 0;
     }
@@ -66,6 +75,10 @@
         text-align: center;
         width: 60%;
         margin: 0 auto;
+    }
+
+    .hero-reverse .intro-desc {
+        width: 41%;
     }
 
     .hero .intro-desc .title {
@@ -97,7 +110,13 @@
     #remote-img {
         width: 25%;
     }
-    #remote-img img {
-        max-width: 100%;
+
+    .hero-reverse {
+        position: relative;
+    }
+
+    #tv-img {
+        position: absolute;
+        right: -250px;
     }
 }
