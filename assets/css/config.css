@@ -2,22 +2,25 @@
     width: 100%;
     margin: 0 auto;
 }
+
 #config #config-detail .container {
     background-color: #121212;
     margin-left: -20px;
     margin-right: -20px;
-    border-radius: 5px;
+    border-radius: 0;
     padding: 18px 14px 28px 0;
-}
-
-.specifications {
-    flex-direction: column;
 }
 
 .config-title {
     text-align: center;
     font-size: 14px;
     margin-bottom: 24px;
+}
+
+.specifications {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
 }
 
 .specification h3,
@@ -37,11 +40,15 @@
 .line {
     background-color: #37383e;
     width: 1px;
-    display: inline-block;
+    display: none;
 }
 
 .moreInfo span {
     color: #6eb8ff;
+}
+
+.specification:nth-child(n + 2) {
+    display: none;
 }
 
 @media (min-width: 640px) {
@@ -49,33 +56,54 @@
         margin-left: -56px;
         margin-right: -56px;
         padding: 40px 24px;
+        border-radius: 0;
     }
+
     .config-title {
         font-size: 16px;
+    }
+
+    .specifications {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .specification:nth-child(n + 2) {
+        display: inline-block;
+    }
+
+    .specification:nth-child(n + 5) {
+        display: none;
+    }
+
+    .line {
+        display: none;
     }
 }
 
 @media (min-width: 1280px) {
     #config #config-detail .container {
         padding: 40px 22px;
+        margin-left: -56px;
+        margin-right: -56px;
+        border-radius: 5px;
     }
 
     .specifications {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        grid-template-columns: 1fr 1px 1fr 1px 1fr 1px 1fr;
     }
 
     .config-title {
         font-size: 20px;
+        margin-top: 100px;
+        margin-bottom: 40px;
     }
 
     .moreInfo {
         display: none;
     }
 
-    .config-title {
-        margin-top: 100px;
-        margin-bottom: 40px;
+    .line,
+    .specification:nth-child(n + 5) {
+        display: inline-block;
     }
 }
