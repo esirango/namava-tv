@@ -79,7 +79,7 @@
 
     .hero .intro-desc {
         text-align: right;
-        width: 43%;
+        width: 33%;
         margin: 70px 8% 0;
     }
 
@@ -96,6 +96,7 @@
     .hero-namava-tv .intro-desc {
         margin-top: -110px;
         text-align: center;
+        width: 43%;
     }
 
     .hero .intro-desc .title {

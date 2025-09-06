@@ -25,3 +25,9 @@ a {
         margin: 0 56px;
     }
 }
+
+@media (min-width: 1280px) {
+    body {
+        margin: 0 56px;
+    }
+}
