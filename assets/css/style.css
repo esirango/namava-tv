@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    padding: 0 20px;
+}
+
 body {
     background-color: #000;
     color: #fff;
@@ -25,13 +30,15 @@ a {
 }
 
 @media (min-width: 640px) {
-    body {
-        padding: 0 56px;
+    body,
+    header {
+        padding: 0 30px;
     }
 }
 
 @media (min-width: 1280px) {
-    body {
-        padding: 0 56px;
+    body,
+    header {
+        padding: 0 30px;
     }
 }

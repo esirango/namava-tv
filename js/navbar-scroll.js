@@ -6,7 +6,7 @@ window.addEventListener("scroll", () => {
 
     if (scrollTop > lastScrollTop) {
         header.classList.add("hide");
-    } else if (scrollTop === 0) {
+    } else {
         header.classList.remove("hide");
     }
 
