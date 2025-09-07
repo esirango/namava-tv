@@ -1,6 +1,5 @@
 #config {
     width: 100%;
-    margin: 0 auto;
 }
 
 #config #config-detail .container {
@@ -36,6 +35,7 @@
 .specification div {
     color: #aaaaaa;
     margin-bottom: 18px;
+    font-weight: 300;
 }
 
 .line {
@@ -46,10 +46,27 @@
 
 .moreInfo span {
     color: #6eb8ff;
+    cursor: pointer;
 }
 
 .specification:nth-child(n + 2) {
     display: none;
+}
+
+#config.open .specification {
+    display: inline-block;
+}
+
+.moreInfo {
+    user-select: none;
+}
+
+.moreInfo img {
+    transition: transform ease-in 0.3s;
+}
+
+#config.open .moreInfo img {
+    transform: rotateX(180deg);
 }
 
 @media (min-width: 640px) {
@@ -79,11 +96,16 @@
     .line {
         display: none;
     }
+
+    #config.open .specification {
+        display: inline-block;
+    }
 }
 
 @media (min-width: 1280px) {
     #config {
         width: 90%;
+        margin: 0 auto;
     }
 
     #config #config-detail .container {
