@@ -1,6 +1,6 @@
 #config {
     width: 100%;
-    padding-top: 10px;
+    padding-top: 35px;
 }
 
 #config #config-detail .container {
@@ -14,8 +14,7 @@
 .config-title {
     text-align: center;
     font-size: 14px;
-    margin-bottom: 24px;
-    margin-top: 70px;
+    margin-bottom: 30px;
 }
 
 .specifications {
@@ -70,7 +69,7 @@
 }
 
 #config.open .specification {
-    max-height: fit-content;
+    max-height: 500px;
     opacity: 1;
     overflow: visible;
 }
@@ -92,7 +91,7 @@
     }
 
     .specification:nth-child(n + 2) {
-        max-height: fit-content;
+        max-height: 500px;
         opacity: 1;
         overflow: visible;
     }
@@ -109,7 +108,7 @@
     }
 
     #config.open .specification {
-        max-height: fit-content;
+        max-height: 500px;
         opacity: 1;
         overflow: visible;
     }
