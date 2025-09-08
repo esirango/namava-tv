@@ -20,7 +20,7 @@
 .specifications {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 10px;
 }
 
 .specification h3,
@@ -69,7 +69,7 @@
 }
 
 #config.open .specification {
-    max-height: 1000px;
+    max-height: fit-content;
     opacity: 1;
     overflow: visible;
 }
@@ -91,7 +91,7 @@
     }
 
     .specification:nth-child(n + 2) {
-        max-height: 1000px;
+        max-height: fit-content;
         opacity: 1;
         overflow: visible;
     }
@@ -108,7 +108,7 @@
     }
 
     #config.open .specification {
-        max-height: 1000px;
+        max-height: fit-content;
         opacity: 1;
         overflow: visible;
     }
