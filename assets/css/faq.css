@@ -32,6 +32,14 @@
     padding-bottom: 16px;
 }
 
+#faq .row {
+    border-bottom: 1px #37383e solid;
+}
+
+#faq .row:last-child {
+    border: none;
+}
+
 @media (min-width: 640px) {
     #faq .accordion {
         margin: 0;
