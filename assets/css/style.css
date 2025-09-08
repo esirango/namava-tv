@@ -1,3 +1,4 @@
+/* Global reset */
 * {
     margin: 0;
     padding: 0;
@@ -6,25 +7,26 @@
 
 html {
     scroll-behavior: smooth;
-}
-
-header {
-    padding: 0 20px;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 body {
     background-color: #000;
     color: #fff;
+    margin: 0;
     padding: 0 20px;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 main {
     padding-top: 39px;
     max-width: 1180px;
+    width: 100%;
     margin: 0 auto;
 }
 

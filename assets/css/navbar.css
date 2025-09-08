@@ -1,9 +1,9 @@
-/* global style */
 header {
     position: fixed;
     top: 0;
     z-index: 2;
-    transition: transform 0.8s ease-in-out;
+    padding: 0 20px;
+    transition: transform 0.6s ease-in-out;
     width: 100%;
     background-color: #000;
 }
@@ -19,7 +19,6 @@ header nav {
     gap: 18px;
 }
 
-/* links in navigation bar */
 .navigation-links {
     display: flex;
     font-size: 10px;
@@ -52,7 +51,6 @@ header nav {
         height: 79px;
     }
 
-    /* links in navigation bar */
     .navigation-links {
         font-size: 12px;
     }
