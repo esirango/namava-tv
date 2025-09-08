@@ -49,14 +49,6 @@
     cursor: pointer;
 }
 
-.specification:nth-child(n + 2) {
-    display: none;
-}
-
-#config.open .specification {
-    display: inline-block;
-}
-
 .moreInfo {
     user-select: none;
 }
@@ -67,6 +59,19 @@
 
 #config.open .moreInfo img {
     transform: rotateX(180deg);
+}
+
+.specification:nth-child(n + 2) {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+
+#config.open .specification {
+    max-height: 1000px;
+    opacity: 1;
+    overflow: visible;
 }
 
 @media (min-width: 640px) {
@@ -86,11 +91,16 @@
     }
 
     .specification:nth-child(n + 2) {
-        display: inline-block;
+        max-height: 1000px;
+        opacity: 1;
+        overflow: visible;
     }
 
     .specification:nth-child(n + 5) {
-        display: none;
+        max-height: 0;
+        opacity: 0;
+        overflow: hidden;
+        transition: all 0.5s ease;
     }
 
     .line {
@@ -98,7 +108,9 @@
     }
 
     #config.open .specification {
-        display: inline-block;
+        max-height: 1000px;
+        opacity: 1;
+        overflow: visible;
     }
 }
 
@@ -132,5 +144,8 @@
     .line,
     .specification:nth-child(n + 5) {
         display: inline-block;
+        max-height: none;
+        opacity: 1;
+        overflow: visible;
     }
 }
