@@ -213,11 +213,12 @@
                 </div>
             </section>
 
-            <section id="config">
-                <div id="config-detail">
-                    <div class="config-title">مشخصات دستگاه</div>
-                    <div class="container specifications">
-                        <div class="specification config">
+            <!-- Config Section -->
+            <section id="device-specs">
+                <div id="specs-detail">
+                    <div class="section-title">مشخصات دستگاه</div>
+                    <div class="container specs-container">
+                        <div class="specs-block hardware">
                             <h3>رم</h3>
                             <div>۲ گیگابایت</div>
                             <h3>حافظه داخلی</h3>
@@ -228,9 +229,9 @@
                             <div>Android Tv version 9</div>
                         </div>
 
-                        <div class="line"></div>
+                        <div class="divider"></div>
 
-                        <div class="specification apps">
+                        <div class="specs-block connectivity">
                             <h3>شبکه</h3>
                             <div>- Wireless: Wi-Fi 802.11 a/b/g/n/ac</div>
                             <div>dual band</div>
@@ -242,9 +243,9 @@
                             <div>USB 2.0</div>
                         </div>
 
-                        <div class="line"></div>
+                        <div class="divider"></div>
 
-                        <div class="specification accessories">
+                        <div class="specs-block ports">
                             <div>Micro SD/TF</div>
                             <div>AV</div>
                             <div>HDMI</div>
@@ -256,9 +257,9 @@
                             <div>اپلیکیشن های کاربردی مخصوص تلویزیون</div>
                         </div>
 
-                        <div class="line"></div>
+                        <div class="divider"></div>
 
-                        <div class="specification accessories">
+                        <div class="specs-block accessories">
                             <h3>اقلام همراه</h3>
                             <div>نماوا تی‌وی</div>
                             <div class="white-space">
@@ -272,12 +273,12 @@
                         </div>
 
                         <div
-                            class="moreInfo"
-                            onclick="document.getElementById('config').classList.toggle('open')"
+                            class="more-info"
+                            onclick="document.getElementById('device-specs').classList.toggle('open')"
                         >
                             <span>اطلاعات بیشتر</span>
                             <img
-                                class="chevron"
+                                class="chevron-icon"
                                 src="./assets/images/icon/Continue.svg"
                                 alt="chevron"
                             />
