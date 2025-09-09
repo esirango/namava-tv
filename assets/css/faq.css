@@ -22,6 +22,7 @@
     padding: 16px 0;
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 .answer {
@@ -29,7 +30,26 @@
     font-size: 10px;
     line-height: 24px;
     color: rgb(242, 242, 242);
+    max-height: 0;
+    overflow: hidden;
+    transform: translateY(-5px);
+    transition: max-height 0.25s ease, transform 0.25s ease, padding 0.25s ease;
+    padding: 0;
+    padding-bottom: 0; /* وقتی بسته است */
+}
+
+.answer.open {
+    max-height: 500px; /* بزرگ‌تر از بلندترین جواب */
+    transform: translateY(0);
     padding-bottom: 16px;
+}
+
+.question img {
+    transition: transform 0.25s ease;
+}
+
+.question.active img {
+    transform: rotate(180deg);
 }
 
 #faq .row {
