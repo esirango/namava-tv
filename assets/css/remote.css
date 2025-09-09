@@ -1,0 +1,75 @@
+#remote {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 136px 0 72px 0;
+}
+
+#remote .remote-img img {
+    max-width: 100%;
+}
+
+#remote .remote-desc {
+    text-align: center;
+    width: 100%;
+}
+
+#remote {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+#remote .remote-desc {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0 0;
+}
+
+#remote .remote-img {
+    width: 44%;
+}
+
+@media (min-width: 640px) {
+    #remote {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    #remote .remote-img {
+        width: 33%;
+    }
+
+    #remote .remote-desc {
+        text-align: right;
+        width: calc(100% - 33%);
+    }
+}
+
+@media (min-width: 1280px) {
+    #remote {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 30px;
+    }
+
+    #remote {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    #remote .remote-desc {
+        width: 41%;
+        text-align: right;
+        margin: 0;
+    }
+
+    #remote .remote-img {
+        width: 25%;
+    }
+}

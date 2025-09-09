@@ -1,0 +1,63 @@
+#android-tv {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+#android-tv .android-tv-desc {
+    text-align: center;
+    width: 100%;
+}
+
+#android-tv .android-tv-img img {
+    max-width: 100%;
+    margin-top: 40px;
+}
+
+#android-tv .android-tv-img {
+    width: 100%;
+    text-align: center;
+}
+
+@media (min-width: 640px) {
+    #android-tv {
+        flex-direction: column-reverse;
+        margin: 0;
+        margin-bottom: 40px;
+        align-items: center;
+    }
+
+    #android-tv .android-tv-desc {
+        width: 90%;
+    }
+
+    #android-tv .android-tv-img {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1280px) {
+    #android-tv {
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 80px;
+        margin: 30px 0 0 0;
+    }
+
+    #android-tv .android-tv-desc {
+        text-align: right;
+        width: 41%;
+    }
+
+    #android-tv .android-tv-img {
+        width: auto;
+        text-align: right;
+    }
+
+    #android-tv .android-tv-img img {
+        margin-top: 0;
+    }
+}

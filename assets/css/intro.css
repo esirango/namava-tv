@@ -1,126 +1,63 @@
-.hero {
+#intro {
     display: flex;
     flex-direction: column-reverse;
     margin-bottom: 40px;
 }
 
-.hero .intro-desc {
+#intro .intro-desc {
     text-align: center;
 }
 
-.hero .intro-desc .title {
-    font-size: 14px;
-    margin-top: 12px;
-}
-
-.hero .intro-desc .paragraph {
-    color: #aaa;
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 21px;
-    margin-top: 16px;
-}
-
-.hero .intro-img img {
+#intro .intro-img img {
     max-width: 100%;
     margin-top: 40px;
 }
 
-#remote-img {
-    width: 44%;
-    margin: 0 auto 25px;
-}
-
-#tv-img img {
-    width: 100%;
-}
-
-@media (min-width: 640px) {
-    .hero .intro-desc .title {
-        font-size: 16px;
-    }
-    .hero .intro-desc .paragraph {
-        font-size: 14px;
-        line-height: 24px;
-    }
-
-    .hero-namava-tv .intro-desc {
-        margin-top: 0;
-    }
-
-    #remote-img {
-        width: 44%;
-    }
-}
-
 @media (min-width: 1280px) {
-    .hero {
+    #intro {
         display: flex;
         flex-direction: row;
         align-items: center;
         margin-top: 30px;
     }
 
-    .hero-reverse {
+    .intro-reverse {
         flex-direction: row-reverse;
-    }
-
-    .hero-namava-tv {
-        flex-direction: column-reverse;
     }
 
     #namava-tv {
         width: 100%;
     }
 
-    .hero-col {
+    .intro-col {
         margin-top: 0;
     }
 
-    .hero .intro-desc {
+    #intro .intro-desc {
         text-align: right;
         width: 33%;
         margin: 70px 8% 0;
     }
 
-    .hero-col .intro-desc {
+    .intro-col .intro-desc {
         text-align: center;
         width: 60%;
         margin: 0 auto;
     }
 
-    .hero-reverse .intro-desc {
-        width: 41%;
-    }
-
-    .hero-namava-tv .intro-desc {
-        margin-top: -110px;
-        text-align: center;
-        width: 43%;
-    }
-
-    .hero .intro-desc .title {
-        font-size: 20px;
-    }
-    .hero .intro-desc .paragraph {
-        font-size: 16px;
-        line-height: 28px;
-        margin-top: 24px;
-    }
-
-    .hero .intro-img {
+    #intro .intro-img {
         width: 48%;
     }
 
-    .hero-col .intro-img {
+    .intro-col .intro-img {
         width: 58%;
     }
 
-    .hero-col {
+    .intro-col {
         flex-direction: column-reverse;
     }
 
-    .hero-col .intro-desc {
+    .intro-col .intro-desc {
         text-align: center;
         margin: 0 auto;
     }
@@ -129,12 +66,7 @@
         width: 25%;
     }
 
-    .hero-reverse {
+    .intro-reverse {
         position: relative;
-    }
-
-    #tv-img {
-        position: absolute;
-        right: -250px;
     }
 }

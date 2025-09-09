@@ -1,0 +1,46 @@
+#streaming {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+#streaming .streaming-desc {
+    text-align: center;
+    width: 100%;
+}
+
+#streaming .streaming-img img {
+    max-width: 100%;
+    margin-top: 40px;
+}
+
+#streaming .streaming-img {
+    width: 100%;
+    text-align: center;
+}
+
+@media (min-width: 640px) {
+    #streaming {
+        flex-direction: column-reverse;
+        margin: 0;
+        margin-bottom: 40px;
+        align-items: center;
+    }
+
+    #streaming .streaming-desc {
+        width: 90%;
+    }
+
+    #streaming .streaming-img {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1280px) {
+    #streaming .streaming-desc {
+        margin-top: -120px;
+        width: 42%;
+    }
+}

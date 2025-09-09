@@ -3,15 +3,19 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./assets/css/style.css" />
-        <link rel="stylesheet" href="./assets/css/navbar.css" />
+        <link rel="stylesheet" href="./assets/css/global.css" />
         <link rel="stylesheet" href="./assets/css/fonts.css" />
+        <link rel="stylesheet" href="./assets/css/navbar.css" />
         <link rel="stylesheet" href="./assets/css/intro.css" />
         <link rel="stylesheet" href="./assets/css/purchase.css" />
         <link rel="stylesheet" href="./assets/css/tech-info.css" />
         <link rel="stylesheet" href="./assets/css/config.css" />
         <link rel="stylesheet" href="./assets/css/faq.css" />
         <link rel="stylesheet" href="./assets/css/video.css" />
+        <link rel="stylesheet" href="./assets/css/remote.css" />
+        <link rel="stylesheet" href="./assets/css/device.css" />
+        <link rel="stylesheet" href="./assets/css/android-tv.css" />
+        <link rel="stylesheet" href="./assets/css/streaming.css" />
         <link
             rel="shortcut icon"
             href="./assets/favicon.ico"
@@ -30,17 +34,17 @@
                     />
                 </a>
                 <ul class="navigation-links">
-                    <li><a href="#intro-navigation">معرفی</a></li>
-                    <li><a href="#config">مشخصات</a></li>
-                    <li><a href="#buy">خرید</a></li>
+                    <li><a href="#hero-intro">معرفی</a></li>
+                    <li><a href="#device-specs">مشخصات</a></li>
+                    <li><a href="#purchase">خرید</a></li>
                 </ul>
             </nav>
         </header>
 
         <main>
-            <!-- introduction section -->
-            <section id="introduction" class="hero">
-                <div class="intro-desc desc">
+            <!-- Intro Section  -->
+            <section id="intro">
+                <div class="intro-desc">
                     <h2 class="title">با خیال راحت فیلم و سریال ببینید!</h2>
                     <p class="paragraph">
                         «نماوا تی‌وی» یکی از محصولات نماواست که با اتصال آن به
@@ -61,7 +65,7 @@
                 </div>
             </section>
 
-            <!-- purchase section -->
+            <!-- Purchase Section -->
             <section id="purchase">
                 <div class="subscription">
                     <h2>پکیج هدیه نماوا تی‌وی</h2>
@@ -106,8 +110,7 @@
                         <div class="price-row">
                             <h3>قیمت برای شما</h3>
                             <div class="price">
-                                <span>۲,۹۷۵,۰۰۰</span>
-                                تومان
+                                <span>۲,۹۷۵,۰۰۰</span> تومان
                             </div>
                         </div>
                     </div>
@@ -124,9 +127,9 @@
                 </div>
             </section>
 
-            <!-- namava tv device introduction -->
-            <section id="intro-navigation" class="hero hero-col">
-                <div class="intro-desc desc">
+            <!-- Device Section  -->
+            <section id="device">
+                <div class="device-desc">
                     <h2 class="title">دستگاه نماوا تی‌وی چیست؟</h2>
                     <p class="paragraph">
                         «نماوا تی‌وی» دستگاهی است که به راحتی به تلویزیون شما
@@ -135,7 +138,7 @@
                         معمولی، با کیفیت 4k به تماشای فیلم و سریال خود بنشینید.
                     </p>
                 </div>
-                <div class="intro-img">
+                <div class="device-img">
                     <img
                         src="./assets/images/Frame 4.png"
                         alt="intro device namava tv pic"
@@ -143,9 +146,12 @@
                 </div>
             </section>
 
+            <!-- Video Section -->
             <section id="video">
                 <img src="/assets/images/Frame 18.png" />
             </section>
+
+            <!-- Technical Info Section -->
             <section id="technical-info">
                 <div>
                     <img src="./assets/images/Frame 9.png" alt="resolution" />
@@ -165,8 +171,9 @@
                 </div>
             </section>
 
-            <section id="introduction" class="hero">
-                <div class="intro-desc desc">
+            <!-- Remote Section 3 -->
+            <section id="remote">
+                <div class="remote-desc desc">
                     <h2 class="title">ریموت هوشمند به همراه میکروفون داخلی</h2>
                     <p class="paragraph">
                         طراحی متفاوت و به‌روز، استفاده از تکنولوژی بی‌سیم به جای
@@ -174,7 +181,7 @@
                         از ویژگی‌های فنی نماوا تی‌‍وی است.
                     </p>
                 </div>
-                <div class="intro-img" id="remote-img">
+                <div class="remote-img">
                     <img
                         src="./assets/images/Frame 5.png"
                         alt="remote device namava tv pic"
@@ -182,8 +189,9 @@
                 </div>
             </section>
 
-            <section id="introduction" class="hero hero-reverse">
-                <div class="intro-desc desc">
+            <!-- Android TV Section -->
+            <section id="android-tv">
+                <div class="android-tv-desc">
                     <h2 class="title">Android TV به سبک فارسی</h2>
                     <p class="paragraph">
                         سیستم عامل Android TV نسخه 9، با تمامی امکاناتی که دارد،
@@ -192,13 +200,14 @@
                         می‌کند.
                     </p>
                 </div>
-                <div class="intro-img" id="tv-img">
+                <div class="android-tv-img">
                     <img src="./assets/images/Frame 13.svg" alt="android tv" />
                 </div>
             </section>
 
-            <section id="introduction" class="hero hero-namava-tv">
-                <div class="intro-desc desc">
+            <!-- Streaming Section 5 -->
+            <section id="streaming">
+                <div class="streaming-desc">
                     <h2 class="title">
                         تماشای آنلاین هزاران فیلم و سریال در صفحه تلویزیون شما
                     </h2>
@@ -208,7 +217,7 @@
                         نماوا بنشینید.
                     </p>
                 </div>
-                <div class="intro-img" id="namava-tv">
+                <div class="streaming-img" id="namava-tv">
                     <img src="./assets/images/Frame 17.png" alt="android tv" />
                 </div>
             </section>
@@ -287,7 +296,7 @@
                 </div>
             </section>
 
-            <!-- faq section -->
+            <!-- FAQ Section -->
             <div id="faq">
                 <h2 class="faq-title">سوالات متداول</h2>
                 <div id="accordion" class="accordion container">
@@ -397,6 +406,7 @@
                 </div>
             </div>
         </main>
+
         <script src="./js/navbarScroll.js"></script>
         <script src="./js/accordionHandler.js"></script>
     </body>

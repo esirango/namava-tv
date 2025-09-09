@@ -1,0 +1,40 @@
+#device {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 40px;
+}
+
+#device .device-desc {
+    text-align: center;
+    width: 100%;
+}
+
+#device .device-img img {
+    max-width: 100%;
+    margin-top: 40px;
+}
+
+@media (min-width: 1280px) {
+    #device {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    #device .device-desc {
+        width: 60%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #device .device-img {
+        width: 58%;
+    }
+
+    #device .device-desc {
+        text-align: center;
+        width: 58%;
+    }
+}
