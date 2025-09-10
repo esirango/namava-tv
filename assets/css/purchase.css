@@ -114,6 +114,7 @@
     .purchase .subscription .tickets h4 {
         font-size: 12px;
         font-weight: normal;
+        overflow-wrap: break-word;
     }
 
     .purchase .price-box .price-table .price-row h3 {
