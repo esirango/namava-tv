@@ -1,20 +1,20 @@
-#purchase {
+.purchase {
     text-align: center;
 }
 
-#purchase h2 {
+.purchase h2 {
     font-size: 16px;
-    margin-bottom: 19px;
+    margin-bottom: 24px;
 }
 
-#purchase .subscription .tickets {
+.purchase .subscription .tickets {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 15px;
 }
 
-#purchase .subscription .tickets .ticket {
+.purchase .subscription .tickets .ticket {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,27 +22,29 @@
     gap: 22px;
 }
 
-#purchase .subscription .tickets .ticket img {
-    width: 145px;
+.purchase .subscription .tickets .ticket img {
+    max-width: 145px;
+    width: 100%;
 }
 
-#purchase .subscription .tickets {
+.purchase .subscription .tickets {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 15px 40px;
 }
 
-#purchase .subscription .tickets h4 {
+.purchase .subscription .tickets h4 {
     font-size: 12px;
+    font-weight: normal;
 }
 
-#purchase .with-discount {
+.purchase .with-discount {
     text-decoration-line: line-through;
     text-decoration-color: #d95c5c;
 }
 
-#purchase .price-box .price-table {
+.purchase .price-box .price-table {
     padding: 20px;
     background-color: #121212;
     border-radius: 12px;
@@ -53,23 +55,23 @@
     gap: 20px;
 }
 
-#purchase .price-box {
+.purchase .price-box {
     width: 100%;
     margin: 0 auto;
     max-width: 416px;
 }
 
-#purchase .price-box .price-table .price-row {
+.purchase .price-box .price-table .price-row {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-#purchase .price-box .price-table .price-row h3 {
+.purchase .price-box .price-table .price-row h3 {
     font-size: 14px;
 }
 
-#purchase .price-box .price-table .price-row .discount {
+.purchase .price-box .price-table .price-row .discount {
     width: 64px;
     line-height: 18px;
     font-weight: 400;
@@ -78,12 +80,12 @@
     font-size: 10px;
 }
 
-#purchase .price-box .price-table .price-row .price,
-#purchase .subscription .tickets .ticket .price {
+.purchase .price-box .price-table .price-row .price,
+.purchase .subscription .tickets .ticket .price {
     font-size: 12px;
 }
 
-#purchase .digikala {
+.purchase .digikala {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -97,79 +99,81 @@
     margin-top: 20px;
 }
 
-#purchase .digikala img {
+.purchase .digikala img {
     width: 70px;
 }
 
 @media (min-width: 640px) {
-    #purchase h2 {
+    .purchase h2 {
         font-size: 18px;
     }
-    #purchase .subscription .tickets .ticket img {
+    .purchase .subscription .tickets .ticket img {
         width: 128px;
     }
 
-    #purchase .subscription .tickets h4 {
+    .purchase .subscription .tickets h4 {
         font-size: 12px;
+        font-weight: normal;
     }
 
-    #purchase .price-box .price-table .price-row h3 {
+    .purchase .price-box .price-table .price-row h3 {
         font-size: 14px;
     }
 
-    #purchase .price-box .price-table .price-row .price,
-    #purchase .subscription .tickets .ticket .price {
+    .purchase .price-box .price-table .price-row .price,
+    .purchase .subscription .tickets .ticket .price {
         font-size: 12px;
     }
 
-    #purchase .digikala img {
+    .purchase .digikala img {
         width: 80px;
     }
 
-    #purchase .price-box {
+    .purchase .price-box {
         margin: 0 auto;
     }
 }
 
 @media (min-width: 1280px) {
-    #purchase {
+    .purchase {
         display: flex;
         flex-direction: row;
         justify-content: center;
         gap: 20px;
         align-items: center;
     }
-    #purchase h2 {
+    .purchase h2 {
         font-size: 20px;
     }
 
-    #purchase .price-box {
+    .purchase .price-box {
         width: 33%;
         margin: 0 40px;
     }
 
-    #purchase .subscription .tickets .ticket img {
+    .purchase .subscription .tickets .ticket img {
         width: 205px;
     }
 
-    #purchase .subscription .tickets h4 {
+    .purchase .subscription .tickets h4 {
         font-size: 14px;
+        font-weight: normal;
     }
 
-    #purchase .price-box .price-table .price-row h3 {
+    .purchase .price-box .price-table .price-row h3 {
         font-size: 16px;
     }
 
-    #purchase .price-box .price-table .price-row .price,
-    #purchase .subscription .tickets .ticket .price {
+    .purchase .price-box .price-table .price-row .price,
+    .purchase .subscription .tickets .ticket .price {
         font-size: 12px;
     }
 
-    #purchase .digikala {
+    .purchase .digikala {
         font-size: 14px;
     }
 
-    #purchase .digikala img {
+    .purchase .digikala img {
         width: 84px;
     }
 }

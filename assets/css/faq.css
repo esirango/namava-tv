@@ -1,5 +1,6 @@
 #faq {
     margin: 0 -20px;
+    margin-bottom: 30px;
 }
 
 .faq-title {
@@ -35,11 +36,11 @@
     transform: translateY(-5px);
     transition: max-height 0.25s ease, transform 0.25s ease, padding 0.25s ease;
     padding: 0;
-    padding-bottom: 0; /* وقتی بسته است */
+    padding-bottom: 0;
 }
 
 .answer.open {
-    max-height: 500px; /* بزرگ‌تر از بلندترین جواب */
+    max-height: fit-content;
     transform: translateY(0);
     padding-bottom: 16px;
 }

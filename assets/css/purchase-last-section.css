@@ -1,0 +1,75 @@
+#purchase-last-section {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+#purchase-last-section .subscription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#purchase-last-section .subscription .price-box {
+    width: 100%;
+}
+
+#purchase-last-section .namava-tv-device-img {
+    text-align: center;
+    width: 100%;
+}
+
+#purchase-last-section .namava-tv-device-img img {
+    max-width: 100%;
+    margin: 30px auto;
+}
+
+@media (min-width: 640px) {
+    #purchase-last-section {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #purchase-last-section .namava-tv-device-img img {
+        max-width: 100%;
+        margin: 30px auto;
+    }
+
+    #purchase-last-section .subscription .price-box {
+        width: 100%;
+    }
+
+    #purchase-last-section .subscription {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1280px) {
+    #purchase-last-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 540px;
+        gap: 100px;
+        margin: 0 auto;
+        padding: 0 56px;
+    }
+
+    #purchase-last-section .subscription {
+        width: 100%;
+    }
+
+    #purchase-last-section .namava-tv-device-img {
+        width: 100%;
+        text-align: center;
+    }
+
+    #purchase-last-section .namava-tv-device-img img {
+        max-width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+}
