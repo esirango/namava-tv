@@ -133,6 +133,10 @@
     .purchase .price-box {
         margin: 0 auto;
     }
+
+    .purchase .subscription .tickets .ticket img {
+        max-width: 100%;
+    }
 }
 
 @media (min-width: 1280px) {
@@ -176,5 +180,9 @@
 
     .purchase .digikala img {
         width: 84px;
+    }
+
+    .purchase .subscription .tickets .ticket img {
+        max-width: 100%;
     }
 }

@@ -8,6 +8,7 @@
 #streaming .streaming-desc {
     text-align: center;
     width: 100%;
+    line-height: 24px;
 }
 
 #streaming .streaming-img img {

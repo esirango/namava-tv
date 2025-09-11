@@ -53,14 +53,6 @@
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        margin-top: 30px;
-    }
-
-    #remote {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        margin-top: 30px;
     }
 
     #remote .remote-desc {

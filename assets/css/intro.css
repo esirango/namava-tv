@@ -17,8 +17,9 @@
     #intro {
         display: flex;
         flex-direction: row;
-        align-items: center;
+        align-items: end;
         margin-top: 30px;
+        padding: 0 45px;
     }
 
     .intro-reverse {
@@ -35,22 +36,16 @@
 
     #intro .intro-desc {
         text-align: right;
-        width: 33%;
+        width: 48%;
         margin: 70px 8% 0;
     }
 
-    .intro-col .intro-desc {
-        text-align: center;
-        width: 60%;
-        margin: 0 auto;
-    }
-
     #intro .intro-img {
-        width: 48%;
+        width: 65%;
     }
 
-    .intro-col .intro-img {
-        width: 58%;
+    #intro .intro-img img {
+        width: 100%;
     }
 
     .intro-col {
