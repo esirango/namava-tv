@@ -24,14 +24,14 @@
 
 .purchase .subscription .tickets .ticket img {
     max-width: 145px;
-    width: 100%;
+    width: 95%;
 }
 
 .purchase .subscription .tickets {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px 40px;
+    gap: 15px 10px;
 }
 
 .purchase .subscription .tickets h4 {
